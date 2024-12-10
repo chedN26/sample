@@ -61,7 +61,7 @@ This program used abstraction by applying it to utility methods like DatabaseUti
 
 <br>
 
-## 3. ` `**SUSTAINABLE DEVELOPMENT GOALS**
+## 3. **SUSTAINABLE DEVELOPMENT GOALS**
 
 The Tenant Management and Utility Billing Solution aligns with both SDG 9: Industry, Innovation, and Infrastructure and SDG 11: Sustainable Cities and Communities.
 
