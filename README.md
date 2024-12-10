@@ -1,5 +1,7 @@
 
-**FINAL PROJECT DOCUMENTATION**
+<p align='center'> 
+  
+  **FINAL PROJECT DOCUMENTATION**
 
 ## **DueDeet: Tenant Management and Billing Solution**
 
@@ -10,6 +12,8 @@ Submitted By:
 GARCIA, CHED NEO H. 
 
 IT – 2106
+
+</p>
 
 <br>
 
