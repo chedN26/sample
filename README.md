@@ -1,9 +1,4 @@
-
-<p align="center"> 
-  
-  **FINAL PROJECT DOCUMENTATION**
-
-  </p>
+ **FINAL PROJECT DOCUMENTATION**
 
 ## **DueDeet: Tenant Management and Billing Solution**
 
