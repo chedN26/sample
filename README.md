@@ -1,86 +1,70 @@
-FINAL PROJECT DOCUMENTATION
+**FINAL PROJECT DOCUMENTATION DueDeet: Tenant Management and Billing Solution** 
 
-DueDeet: Tenant Management and Billing Solution
+CS211: OBJECT-ORIENTED PROGRAMMING 
 
-CS211: OBJECT-ORIENTED PROGRAMMING
+Submitted By: 
+GARCIA, CHED NEO H.  IT – 2106 
 
-Submitted By:
+1. **PROJECT OVERVIEW** 
 
-GARCIA, CHED NEO H.
+The Tenant Management and Utility Billing Solution exists to address the challenges faced in managing rental properties, particularly in maintaining accurate and timely billing for tenants. It was created in response to personal frustrations with inconsistencies in monthly billings—such as  delays  and  inaccurate  meter  readings—that  impacted  the  rental  experience.  The  system centralizes the management of essential tenant information, including rent and utility bills (e.g., water, electricity, and internet), ensuring that billing is accurate and timely. By providing a platform that tracks utility readings and automates the billing process, the system eliminates the potential for errors and ensures a smooth experience for both tenants and apartment managers. 
 
-IT – 2106
+The primary goal of the system is to eliminate billing inefficiencies, offer transparency in charges, and improve tenant satisfaction by providing a reliable and consistent method for billing. It supports the university's mission by promoting innovation in problem-solving and offering an example of a technological solution that addresses real-world challenges. The system reflects the university's commitment to producing leaders who can apply creative solutions to problems, and contributing to sustainable development by enhancing the rental management process in a modern, efficient manner. 
 
-PROJECT OVERVIEW
+2. **OOP PRINCIPLES** 
 
-The Tenant Management and Utility Billing Solution exists to address the challenges faced in managing rental properties, particularly in maintaining accurate and timely billing for tenants. It was created in response to personal frustrations with inconsistencies in monthly billings—such as delays and inaccurate meter readings—that impacted the rental experience. The system centralizes the management of essential tenant information, including rent and utility bills (e.g., water, electricity, and internet), ensuring that billing is accurate and timely. By providing a platform that tracks utility readings and automates the billing process, the system eliminates the potential for errors and ensures a smooth experience for both tenants and apartment managers.
+**Encapsulation** 
 
-The primary goal of the system is to eliminate billing inefficiencies, offer transparency in charges, and improve tenant satisfaction by providing a reliable and consistent method for billing. It supports the university's mission by promoting innovation in problem-solving and offering an example of a technological solution that addresses real-world challenges. The system reflects the university's commitment to producing leaders who can apply creative solutions to problems, and contributing to sustainable development by enhancing the rental management process in a modern, efficient manner.
+In this program, the encapsulation is achieved by organizing data and behavior using private fields, for example, GUI components like txtWaterConsume, txtRent, etc. and providing controlled access through setters and getters. 
 
-OOP PRINCIPLES
+*Setters* 
 
-Encapsulation
+The text fields' values are set or reset using methods like txtWaterConsume.setText() or txtUnit.setEditable(true). This encapsulates direct access to these components, controlling how data is manipulated. 
 
-In this program, the encapsulation is achieved by organizing data and behavior using private fields, for example, GUI components like txtWaterConsume, txtRent, etc. and providing controlled access through setters and getters.
+*Getters* 
 
-Setters
+Values are retrieved from fields like txtUnit.getText() and validated before processing. This ensures controlled access to private fields, maintaining data integrity. ![](Aspose.Words.2fcadb08-0007-481b-b297-168ff88a62cf.001.png)
 
-The text fields' values are set or reset using methods like txtWaterConsume.setText() or txtUnit.setEditable(true). This encapsulates direct access to these components, controlling how data is manipulated.
+**Inheritance** 
 
-Getters
+Inheritance is implemented in this program by extending the javax.swing.JFrame class. This allows the Main class to inherit JFrame functionalities, such as handling GUI operations. The program customizes JFrame to meet the requirements of the application, illustrating code reuse and hierarchical relationships. ![](Aspose.Words.2fcadb08-0007-481b-b297-168ff88a62cf.002.png)
 
-Values are retrieved from fields like txtUnit.getText() and validated before processing. This ensures controlled access to private fields, maintaining data integrity.
+**Polymorphism** 
 
-Inheritance
+Polymorphism is used in the following parts of the code: 
 
-Inheritance is implemented in this program by extending the javax.swing.JFrame class. This allows the Main class to inherit JFrame functionalities, such as handling GUI operations. The program customizes JFrame to meet the requirements of the application, illustrating code reuse and hierarchical relationships.
+*Method Overloading* 
 
-Polymorphism
+The methodS DatabaseUtility.mysqlQuery and DatabaseUtility.fetchData which are imported from another java class appear to accept different parameter types, showcasing overloading. 
 
-Polymorphism is used in the following parts of the code:
+*Dynamic Behavior* 
 
-Method Overloading
+The program's use of the switch statement for filtering table contents like handling cmbUnitActionPerformed allows different queries to be executed depending on user input, providing different responses to the same method invocation. ![](Aspose.Words.2fcadb08-0007-481b-b297-168ff88a62cf.003.png)
 
-The methodS DatabaseUtility.mysqlQuery and DatabaseUtility.fetchData which are imported from another java class appear to accept different parameter types, showcasing overloading.
+**Abstraction** 
 
-Dynamic Behavior
+This program used abstraction by applying it to utility methods like DatabaseUtility.fetchData and DatabaseUtility.mysqlQuery. These methods hide implementation details of database queries and abstract the logic for fetching or updating data. The main program interacts with these utilities at a higher level, focusing on core functionalities without needing to manage the internal workings. 
 
-The program's use of the switch statement for filtering table contents like handling cmbUnitActionPerformed allows different queries to be executed depending on user input, providing different responses to the same method invocation.
+3. **SUSTAINABLE DEVELOPMENT GOALS** 
 
-Abstraction
+The Tenant Management and Utility Billing Solution aligns with both SDG 9: Industry, Innovation, and Infrastructure and SDG 11: Sustainable Cities and Communities. 
 
-This program used abstraction by applying it to utility methods like DatabaseUtility.fetchData and DatabaseUtility.mysqlQuery. These methods hide implementation details of database queries and abstract the logic for fetching or updating data. The main program interacts with these utilities at a higher level, focusing on core functionalities without needing to manage the internal workings.
+- **SDG  9:  Industry,  Innovation,  and  Infrastructure**:  This  goal  emphasizes  the  need  for innovation and the development of resilient infrastructure. The Tenant Management and Utility Billing Solution addresses these by introducing technological innovation to improve the  efficiency  of  property  management.  It  automates  billing  calculation,  ensuring accuracy  and  reducing  human  error.  By  improving  the  infrastructure  for  rental management  through  automation  and  centralized  data  management,  the  system supports the creation of a more efficient, modern, and sustainable approach to managing residential  properties.  It  helps  create  a  robust,  innovative  system  that  reduces operational inefficiencies, aligning with the goal of fostering innovation in industry. 
+- **SDG 11: Sustainable Cities and Communities**: SDG 11 focuses on making cities and human settlements inclusive, safe, resilient, and sustainable. This project contributes to this goal by  improving  the management  of urban  housing,  enhancing tenant  satisfaction,  and reducing inefficiencies in the billing process. By automating and streamlining utility billing, the  system  ensures  fairness,  transparency,  and  accountability  in  urban  property management. Additionally, it supports the sustainable use of resources (like electricity and water) by promoting accurate billing, encouraging responsible consumption, and ensuring that tenants and apartment managers have clear insights into their utility usage, which contributes to more sustainable living practices within communities. 
+4. **INSTRUCTIONS FOR RUNNING THE PROGRAM** 
 
-SUSTAINABLE DEVELOPMENT GOALS
+How to run the program: 
 
-The Tenant Management and Utility Billing Solution aligns with both SDG 9: Industry, Innovation, and Infrastructure and SDG 11: Sustainable Cities and Communities.
+1. Download the zip file [(https://github.com/chedN26/OOP_Management_System.git)](https://github.com/chedN26/OOP_Management_System.git) 
+1. Extract the file, it should be named "*OOP\_Management\_System-master*" folder 
+1. Open XAMPP Control Panel and start Apache and MySQL 
+1. Open PHPMyAdmin *(http://localhost/phpmyadmin*) 
+1. Create a database with name “*oop\_management\_db*” 
+6. Import oop\_management\_db.sql file to your newly created database (*OOP\_Management\_System-master/oop\_management\_db.sql*) 
+6. Using **NetBeans** as code editor,  open the project folder (*OOP\_Management\_System- master*) 
+6. Double click Main.java inside (*OOP\_Management\_System- master\src\main\java\com\mycompany\oop\_management\_system\Main.java*) to select it 
+6. **IMPORTANT**: To run the program with the GUI, use **CTRL + Shift + F6**. Otherwise the program will not run. 
 
-SDG 9: Industry, Innovation, and Infrastructure: This goal emphasizes the need for innovation and the development of resilient infrastructure. The Tenant Management and Utility Billing Solution addresses these by introducing technological innovation to improve the efficiency of property management. It automates billing calculation, ensuring accuracy and reducing human error. By improving the infrastructure for rental management through automation and centralized data management, the system supports the creation of a more efficient, modern, and sustainable approach to managing residential properties. It helps create a robust, innovative system that reduces operational inefficiencies, aligning with the goal of fostering innovation in industry.
+When you have successfully opened the program, you will see the interface for inputting data and viewing records.  
 
-SDG 11: Sustainable Cities and Communities: SDG 11 focuses on making cities and human settlements inclusive, safe, resilient, and sustainable. This project contributes to this goal by improving the management of urban housing, enhancing tenant satisfaction, and reducing inefficiencies in the billing process. By automating and streamlining utility billing, the system ensures fairness, transparency, and accountability in urban property management. Additionally, it supports the sustainable use of resources (like electricity and water) by promoting accurate billing, encouraging responsible consumption, and ensuring that tenants and apartment managers have clear insights into their utility usage, which contributes to more sustainable living practices within communities.
-
-INSTRUCTIONS FOR RUNNING THE PROGRAM
-
-How to run the program:
-
-Download the zip file ()
-
-Extract the file, it should be named "OOP_Management_System-master" folder
-
-Open XAMPP Control Panel and start Apache and MySQL
-
-Open PHPMyAdmin (http://localhost/phpmyadmin)
-
-Create a database with name “oop_management_db”
-
-Import oop_management_db.sql file to your newly created database (OOP_Management_System-master/oop_management_db.sql)
-
-Using NetBeans as code editor,  open the project folder (OOP_Management_System-master)
-
-Double click Main.java inside (OOP_Management_System-master\src\main\java\com\mycompany\oop_management_system\Main.java) to select it
-
-IMPORTANT: To run the program with the GUI, use CTRL + Shift + F6. Otherwise the program will not run.
-
-When you have successfully opened the program, you will see the interface for inputting data and viewing records.
-
-Here is a visual explanation:
-
+Here is a visual explanation: 
