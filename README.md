@@ -58,9 +58,9 @@ The primary goal of the system is to eliminate billing inefficiencies, offer tra
 
 
 
-
-
-1. **OOP PRINCIPLES**
+-----
+-----
+2. **OOP PRINCIPLES**
 
 **Encapsulation**
 
@@ -98,7 +98,10 @@ The program's use of the switch statement for filtering table contents like hand
 
 This program used abstraction by applying it to utility methods like DatabaseUtility.fetchData and DatabaseUtility.mysqlQuery. These methods hide implementation details of database queries and abstract the logic for fetching or updating data. The main program interacts with these utilities at a higher level, focusing on core functionalities without needing to manage the internal workings.
 
-1. ` `**SUSTAINABLE DEVELOPMENT GOALS**
+-----
+-----
+
+3. ` `**SUSTAINABLE DEVELOPMENT GOALS**
 
 The Tenant Management and Utility Billing Solution aligns with both SDG 9: Industry, Innovation, and Infrastructure and SDG 11: Sustainable Cities and Communities.
 
@@ -113,9 +116,9 @@ The Tenant Management and Utility Billing Solution aligns with both SDG 9: Indus
 
 
 
+-----
 
-
-
+-----
 
 
 
