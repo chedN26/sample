@@ -3,6 +3,8 @@
   
   **FINAL PROJECT DOCUMENTATION**
 
+  </p>
+
 ## **DueDeet: Tenant Management and Billing Solution**
 
 CS211: OBJECT-ORIENTED PROGRAMMING
@@ -13,7 +15,7 @@ GARCIA, CHED NEO H.
 
 IT – 2106
 
-</p>
+
 
 <br>
 
