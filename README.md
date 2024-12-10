@@ -5,28 +5,13 @@
 
 CS211: OBJECT-ORIENTED PROGRAMMING
 
-
-
-
-
-
-
 Submitted By:
 
 GARCIA, CHED NEO H. 
 
 IT – 2106
 
-
-
-
-
-
-
-
-
-
-
+<br>
 
 ## 1. **PROJECT OVERVIEW**
 
@@ -34,32 +19,8 @@ The Tenant Management and Utility Billing Solution exists to address the challen
 
 The primary goal of the system is to eliminate billing inefficiencies, offer transparency in charges, and improve tenant satisfaction by providing a reliable and consistent method for billing. It supports the university's mission by promoting innovation in problem-solving and offering an example of a technological solution that addresses real-world challenges. The system reflects the university's commitment to producing leaders who can apply creative solutions to problems, and contributing to sustainable development by enhancing the rental management process in a modern, efficient manner.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <br>
------
+
 ## 2. **OOP PRINCIPLES**
 
 **Encapsulation**
@@ -92,14 +53,13 @@ The methodS DatabaseUtility.mysqlQuery and DatabaseUtility.fetchData which are i
 
 The program's use of the switch statement for filtering table contents like handling cmbUnitActionPerformed allows different queries to be executed depending on user input, providing different responses to the same method invocation.
 
-` `**-----**
+-----
 
 **Abstraction**
 
 This program used abstraction by applying it to utility methods like DatabaseUtility.fetchData and DatabaseUtility.mysqlQuery. These methods hide implementation details of database queries and abstract the logic for fetching or updating data. The main program interacts with these utilities at a higher level, focusing on core functionalities without needing to manage the internal workings.
 
------
------
+<br>
 
 ## 3. ` `**SUSTAINABLE DEVELOPMENT GOALS**
 
@@ -108,28 +68,7 @@ The Tenant Management and Utility Billing Solution aligns with both SDG 9: Indus
 - **SDG 9: Industry, Innovation, and Infrastructure**: This goal emphasizes the need for innovation and the development of resilient infrastructure. The Tenant Management and Utility Billing Solution addresses these by introducing technological innovation to improve the efficiency of property management. It automates billing calculation, ensuring accuracy and reducing human error. By improving the infrastructure for rental management through automation and centralized data management, the system supports the creation of a more efficient, modern, and sustainable approach to managing residential properties. It helps create a robust, innovative system that reduces operational inefficiencies, aligning with the goal of fostering innovation in industry.
 - **SDG 11: Sustainable Cities and Communities**: SDG 11 focuses on making cities and human settlements inclusive, safe, resilient, and sustainable. This project contributes to this goal by improving the management of urban housing, enhancing tenant satisfaction, and reducing inefficiencies in the billing process. By automating and streamlining utility billing, the system ensures fairness, transparency, and accountability in urban property management. Additionally, it supports the sustainable use of resources (like electricity and water) by promoting accurate billing, encouraging responsible consumption, and ensuring that tenants and apartment managers have clear insights into their utility usage, which contributes to more sustainable living practices within communities.
 
-
-
-
-
-
-
-
-
------
-
------
-
-
-
-
-
-
-
-
-
-
-
+<br>
 
 ## 4. **INSTRUCTIONS FOR RUNNING THE PROGRAM**
 
@@ -144,5 +83,3 @@ How to run the program:
 1. Using **NetBeans** as code editor,  open the project folder (*OOP\_Management\_System-master*)
 1. Double click Main.java inside (*OOP\_Management\_System-master\src\main\java\com\mycompany\oop\_management\_system\Main.java*) to select it
 1. **IMPORTANT**: To run the program with the GUI, use **CTRL + Shift + F6**. Otherwise the program will not run.
-
-
