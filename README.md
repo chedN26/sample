@@ -1,7 +1,7 @@
 
 **FINAL PROJECT DOCUMENTATION**
 
-**DueDeet: Tenant Management and Billing Solution**
+## **DueDeet: Tenant Management and Billing Solution**
 
 CS211: OBJECT-ORIENTED PROGRAMMING
 
@@ -28,7 +28,7 @@ IT – 2106
 
 
 
-1. **PROJECT OVERVIEW**
+## 1. **PROJECT OVERVIEW**
 
 The Tenant Management and Utility Billing Solution exists to address the challenges faced in managing rental properties, particularly in maintaining accurate and timely billing for tenants. It was created in response to personal frustrations with inconsistencies in monthly billings—such as delays and inaccurate meter readings—that impacted the rental experience. The system centralizes the management of essential tenant information, including rent and utility bills (e.g., water, electricity, and internet), ensuring that billing is accurate and timely. By providing a platform that tracks utility readings and automates the billing process, the system eliminates the potential for errors and ensures a smooth experience for both tenants and apartment managers.
 
@@ -58,9 +58,9 @@ The primary goal of the system is to eliminate billing inefficiencies, offer tra
 
 
 
+<br>
 -----
------
-2. **OOP PRINCIPLES**
+## 2. **OOP PRINCIPLES**
 
 **Encapsulation**
 
@@ -101,7 +101,7 @@ This program used abstraction by applying it to utility methods like DatabaseUti
 -----
 -----
 
-3. ` `**SUSTAINABLE DEVELOPMENT GOALS**
+## 3. ` `**SUSTAINABLE DEVELOPMENT GOALS**
 
 The Tenant Management and Utility Billing Solution aligns with both SDG 9: Industry, Innovation, and Infrastructure and SDG 11: Sustainable Cities and Communities.
 
@@ -131,7 +131,7 @@ The Tenant Management and Utility Billing Solution aligns with both SDG 9: Indus
 
 
 
-1. **INSTRUCTIONS FOR RUNNING THE PROGRAM**
+## 4. **INSTRUCTIONS FOR RUNNING THE PROGRAM**
 
 How to run the program:
 
